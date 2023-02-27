@@ -48,6 +48,11 @@ h6 {
   font-size: 0.75em; /* 0.75*16 = 12 */
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 header {
   position: relative;
   display: flex;
@@ -64,11 +69,6 @@ header {
 .logo {
   z-index: 100;
   margin: 4em 0 0 4em;
-
-  a {
-    color: #000;
-    text-decoration: none;
-  }
 
   &.inverse {
     a {
@@ -92,6 +92,36 @@ header {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0.5em 0;
+}
+
+.links {
+  position: fixed;
+  right: 4em;
+  bottom: 2em;
+  width: 100%;
+
+  font-family: $font-family-2;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  text-align-last: right;
+
+  a {
+    padding: 0 0.5em;
+
+    border-radius: 2px;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #fff 50%, #000 50%),
+      linear-gradient(to right, #000 50%, #fff 50%);
+    transition: background-position 0.25s linear;
+
+    &:hover,
+    &:focus {
+      background-position: -100% 0;
+      color: #fff;
+    }
+  }
 }
 
 .bio {
@@ -223,10 +253,9 @@ $cubic-bezier-out: cubic-bezier(1, 0.7, 1, 0.3);
     height: 100%;
     padding: 0;
     list-style: none;
-    cursor: url(/assets/circlewhite.svg) 5 5, auto;
+    cursor: url(/assets/circlewhite.svg) 5 5, auto !important;
 
     a {
-      text-decoration: none;
       color: #fff;
       cursor: url(/assets/circlepluswhite.svg) 5 5, auto;
 
@@ -235,7 +264,7 @@ $cubic-bezier-out: cubic-bezier(1, 0.7, 1, 0.3);
       border-radius: 2px;
       background-size: 200% 100%;
       background-image: linear-gradient(to right, #000 50%, white 50%),
-        linear-gradient(to right, white 50%, #000 50%);
+        linear-gradient(to right, white 50%, #473838 50%);
       transition: background-position 0.5s linear;
 
       &:hover,

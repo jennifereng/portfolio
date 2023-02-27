@@ -44,6 +44,11 @@ h6 {
   /* 0.75*16 = 12 */
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 header {
   position: relative;
   display: -webkit-box;
@@ -69,11 +74,6 @@ header {
   margin: 4em 0 0 4em;
 }
 
-.logo a {
-  color: #000;
-  text-decoration: none;
-}
-
 .logo.inverse a {
   color: #fff;
 }
@@ -92,6 +92,33 @@ header {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 0.5em 0;
+}
+
+.links {
+  position: fixed;
+  right: 4em;
+  bottom: 2em;
+  width: 100%;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align-last: right;
+}
+
+.links a {
+  padding: 0 0.5em;
+  border-radius: 2px;
+  background-size: 200% 100%;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #fff), color-stop(50%, #000)), -webkit-gradient(linear, left top, right top, color-stop(50%, #000), color-stop(50%, #fff));
+  background-image: linear-gradient(to right, #fff 50%, #000 50%), linear-gradient(to right, #000 50%, #fff 50%);
+  -webkit-transition: background-position 0.25s linear;
+  transition: background-position 0.25s linear;
+}
+
+.links a:hover, .links a:focus {
+  background-position: -100% 0;
+  color: #fff;
 }
 
 .bio {
@@ -232,18 +259,17 @@ header {
   height: 100%;
   padding: 0;
   list-style: none;
-  cursor: url(/assets/circlewhite.svg) 5 5, auto;
+  cursor: url(/assets/circlewhite.svg) 5 5, auto !important;
 }
 
 .menu-overlay ul a {
-  text-decoration: none;
   color: #fff;
   cursor: url(/assets/circlepluswhite.svg) 5 5, auto;
   padding: 0 0.5em 0 0.25em;
   border-radius: 2px;
   background-size: 200% 100%;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #000), color-stop(50%, white)), -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, #000));
-  background-image: linear-gradient(to right, #000 50%, white 50%), linear-gradient(to right, white 50%, #000 50%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #000), color-stop(50%, white)), -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, #473838));
+  background-image: linear-gradient(to right, #000 50%, white 50%), linear-gradient(to right, white 50%, #473838 50%);
   -webkit-transition: background-position 0.5s linear;
   transition: background-position 0.5s linear;
 }
