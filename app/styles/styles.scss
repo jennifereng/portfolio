@@ -1,0 +1,15 @@
+//////////////////////////////////////////////////////////////////////////
+// // THIS FILE SHOULD CONTAIN ONLY THE IMPORTS OF OTHER STYLESHEETS // //
+//////////////////////////////////////////////////////////////////////////
+
+//BASE//
+@import 'base/_normalize', 'base/_base', 'base/typography';
+//COMPONENTS//
+@import 'components/buttons';
+//LAYOUT//
+@import 'layout/header', 'layout/footer', 'layout/_navigation';
+//PAGES//
+@import 'pages/contact', 'pages/home';
+//SASS UTILITIES//
+@import 'sass-utils/functions', 'sass-utils/helpers', 'sass-utils/mixins',
+  'sass-utils/variables';

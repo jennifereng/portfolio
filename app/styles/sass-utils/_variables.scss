@@ -1,0 +1,30 @@
+// Font Family
+@import url('https://use.typekit.net/iyo5yzf.css');
+
+$heading-font-family: 'psfournier-std-grand', sans-serif;
+$font-weight: 900;
+$font-style: normal;
+
+$body-font-family: 'sofia-pro', sans-serif;
+
+// $heading-font-family: 'Montserrat', sans-serif;
+// $body-font-family: 'Open Sans', sans-serif;
+// $base-font-size: 18px;
+// $base-font-weight: 400;
+
+// Base Font for HTML
+$base-font-size: 16px;
+
+/// Menu Icon ///
+$menu-line-height: 10px;
+$menu-line-width: 80px;
+$menu-line-space: 14px;
+$menu-line-offsetY: $menu-line-height * 1.25;
+$menu-icon-height: (2 * $menu-line-height) + $menu-line-space;
+$cubic-bezier-in: cubic-bezier(0.3, 1, 0.7, 1);
+$cubic-bezier-out: cubic-bezier(1, 0.7, 1, 0.3);
+
+////Primary and theme colour
+// $color-primary: rgb(21, 21, 23); // # // Standard dark colour
+// $color-secondary: rgb(91, 15, 211); // #; // Purple
+// $color-brand-01: rgb(251, 164, 65); // # // Orange

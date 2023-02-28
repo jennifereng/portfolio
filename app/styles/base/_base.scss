@@ -1,0 +1,50 @@
+/////////////////////////////////////////////////////////////
+// // THIS FILE CONTAINS SINGLE-PURPOSE UTILITY CLASSES // //
+/////////////////////////////////////////////////////////////
+@import '../sass-utils/variables';
+
+html {
+  font-family: $heading-font-family; // 1
+  -ms-text-size-adjust: 100%; // 2
+  -webkit-text-size-adjust: 100%; // 2
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  cursor: url(../../../app/../app/assets/circle.svg) 5 5, auto;
+
+  a {
+    cursor: url(../../../app/assets/circleplus.svg) 5 5, auto;
+  }
+}
+
+.links {
+  position: fixed;
+  right: 4em;
+  bottom: 2em;
+  width: 100%;
+
+  font-family: $body-font-family;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  text-align-last: right;
+
+  a {
+    padding: 0 0.5em;
+
+    border-radius: 2px;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #fff 50%, #000 50%),
+      linear-gradient(to right, #000 50%, #fff 50%);
+    transition: background-position 0.25s linear;
+
+    &:hover,
+    &:focus {
+      background-position: -100% 0;
+      color: #fff;
+    }
+  }
+}
