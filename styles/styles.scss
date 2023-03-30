@@ -3,13 +3,13 @@
 //////////////////////////////////////////////////////////////////////////
 
 //BASE//
-@import 'base/_normalize', 'base/_base', 'base/typography';
+@import 'base/_normalize', 'base/_base', 'base/_typography';
 //COMPONENTS//
-@import 'components/buttons';
+@import 'components/_buttons';
 //LAYOUT//
-@import 'layout/header', 'layout/footer', 'layout/_navigation';
+@import 'layout/_header', 'layout/_footer', 'layout/_navigation';
 //PAGES//
-@import 'pages/contact', 'pages/home', 'pages/projects';
+@import 'pages/_contact', 'pages/_home', 'pages/_projects';
 //SASS UTILITIES//
 @import 'sass-utils/functions', 'sass-utils/helpers', 'sass-utils/mixins',
   'sass-utils/variables';
