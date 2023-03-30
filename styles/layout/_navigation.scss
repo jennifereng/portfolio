@@ -12,16 +12,16 @@
 
     width: $menu-line-width;
     height: $menu-icon-height;
-    cursor: url(./assets/svgs/circle.svg) 5 5, auto;
+    cursor: url(assets/svgs/circle.svg) 5 5, auto;
     z-index: 50;
 
     &:hover,
     &:focus {
-      cursor: url(./assets/svgs/circleplus.svg) 5 5, auto;
+      cursor: url(assets/svgs/circleplus.svg) 5 5, auto;
     }
 
     &.active {
-      cursor: url(./assets/svgs/circlepluswhite.svg) 5 5, auto;
+      cursor: url(assets/svgs/circlepluswhite.svg) 5 5, auto;
 
       .line {
         &-one,
@@ -85,10 +85,10 @@
     height: 20em;
     visibility: visible;
     transition-delay: 0.25s;
-    cursor: url(./assets/svgs/circlewhite.svg) 5 5, auto !important;
+    cursor: url(assets/svgs/circlewhite.svg) 5 5, auto !important;
 
     a {
-      cursor: url(./assets/svgs/circlepluswhite.svg) 5 5, auto;
+      cursor: url(assets/svgs/circlepluswhite.svg) 5 5, auto;
     }
 
     .menu-crumbs {
