@@ -12,12 +12,12 @@
 
     width: $menu-line-width;
     height: $menu-icon-height;
-    cursor: url(./assets/svgs/circle.svg) 5 5, auto;
+    cursor: url(/assets/svgs/circle.svg) 5 5, auto;
     z-index: 50;
 
     &:hover,
     &:focus {
-      cursor: url(./assets/svgs/circleplus.svg) 5 5, auto;
+      cursor: url(/assets/svgs/circleplus.svg) 5 5, auto;
     }
 
     &.active {
@@ -96,11 +96,11 @@
     padding: 0;
     list-style: none;
     line-height: 1.5;
-    cursor: url(./assets/svgs/circlewhite.svg) 5 5, auto !important;
+    cursor: url(/assets/svgs/circlewhite.svg) 5 5, auto !important;
 
     a {
       color: #fff;
-      cursor: url(./assets/svgs/circlepluswhite.svg) 5 5, auto;
+      cursor: url(/assets/svgs/circlepluswhite.svg) 5 5, auto;
 
       padding: 0 0.5em 0 0.25em;
 
@@ -132,7 +132,7 @@
         width: 100%;
         height: 20em;
 
-        cursor: url(./assets/svgs/circlewhite.svg) !important;
+        cursor: url(/assets/svgs/circlewhite.svg) !important;
       }
 
       &-crumb {

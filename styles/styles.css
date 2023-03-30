@@ -353,11 +353,11 @@ html {
 body {
   width: 100%;
   margin: 0;
-  cursor: url(./assets/svgs/circle.svg) 5 5, auto;
+  cursor: url(/assets/svgs/circle.svg) 5 5, auto;
 }
 
 body a {
-  cursor: url(./assets/svgs/circleplus.svg) 5 5, auto;
+  cursor: url(/assets/svgs/circleplus.svg) 5 5, auto;
 }
 
 .links {
@@ -478,12 +478,12 @@ a {
   float: right;
   width: 80px;
   height: 34px;
-  cursor: url(./assets/svgs/circle.svg) 5 5, auto;
+  cursor: url(/assets/svgs/circle.svg) 5 5, auto;
   z-index: 50;
 }
 
 .menu-icon:hover, .menu-icon:focus {
-  cursor: url(./assets/svgs/circleplus.svg) 5 5, auto;
+  cursor: url(/assets/svgs/circleplus.svg) 5 5, auto;
 }
 
 .menu-icon.active .line-one, .menu-icon.active .line-two {
@@ -567,12 +567,12 @@ a {
   padding: 0;
   list-style: none;
   line-height: 1.5;
-  cursor: url(./assets/svgs/circlewhite.svg) 5 5, auto !important;
+  cursor: url(/assets/svgs/circlewhite.svg) 5 5, auto !important;
 }
 
 .menu-overlay ul a {
   color: #fff;
-  cursor: url(./assets/svgs/circlepluswhite.svg) 5 5, auto;
+  cursor: url(/assets/svgs/circlepluswhite.svg) 5 5, auto;
   padding: 0 0.5em 0 0.25em;
   border-radius: 2px;
   background-size: 200% 100%;
@@ -603,7 +603,7 @@ a {
   list-style: none;
   width: 100%;
   height: 20em;
-  cursor: url(./assets/svgs/circlewhite.svg) !important;
+  cursor: url(/assets/svgs/circlewhite.svg) !important;
 }
 
 .menu-overlay .navigation .menu-crumb {
