@@ -450,6 +450,7 @@ a {
 
 .logo.inverse a {
   color: #fff;
+  cursor: url(/assets/svgs/circlepluswhite.svg) 5 5, auto;
 }
 
 .name {
@@ -484,6 +485,10 @@ a {
 
 .menu-icon:hover, .menu-icon:focus {
   cursor: url(/assets/svgs/circleplus.svg) 5 5, auto;
+}
+
+.menu-icon.active {
+  cursor: url(/assets/svgs/circlepluswhite.svg) 5 5, auto;
 }
 
 .menu-icon.active .line-one, .menu-icon.active .line-two {
@@ -552,6 +557,11 @@ a {
   visibility: visible;
   -webkit-transition-delay: 0.25s;
           transition-delay: 0.25s;
+  cursor: url(/assets/svgs/circlewhite.svg) 5 5, auto !important;
+}
+
+.menu-overlay.overlay-active a {
+  cursor: url(/assets/svgs/circlepluswhite.svg) 5 5, auto;
 }
 
 .menu-overlay.overlay-active .menu-crumbs {
@@ -567,12 +577,10 @@ a {
   padding: 0;
   list-style: none;
   line-height: 1.5;
-  cursor: url(/assets/svgs/circlewhite.svg) 5 5, auto !important;
 }
 
 .menu-overlay ul a {
   color: #fff;
-  cursor: url(/assets/svgs/circlepluswhite.svg) 5 5, auto;
   padding: 0 0.5em 0 0.25em;
   border-radius: 2px;
   background-size: 200% 100%;
@@ -603,7 +611,6 @@ a {
   list-style: none;
   width: 100%;
   height: 20em;
-  cursor: url(/assets/svgs/circlewhite.svg) !important;
 }
 
 .menu-overlay .navigation .menu-crumb {
